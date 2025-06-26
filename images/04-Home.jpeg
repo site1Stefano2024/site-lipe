@@ -1,0 +1,722 @@
+<!doctype html>
+		<html lang="pt-BR">
+		
+	<head>
+
+				<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		
+		<title>Daniela Seguros &#8211; Você sempre seguro!</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Daniela Seguros &raquo;" href="https://danielaseguros.com.br/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Daniela Seguros &raquo;" href="https://danielaseguros.com.br/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/danielaseguros.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.16"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://danielaseguros.com.br/wp-includes/css/dist/block-library/style.min.css?ver=5.4.16' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://danielaseguros.com.br/wp-includes/css/dashicons.min.css?ver=5.4.16' type='text/css' media='all' />
+<link rel='stylesheet' id='everest-forms-general-css'  href='https://danielaseguros.com.br/wp-content/plugins/everest-forms/assets/css/everest-forms.css?ver=1.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='zakra-style-css'  href='https://danielaseguros.com.br/wp-content/themes/zakra/style.css?ver=5.4.16' type='text/css' media='all' />
+<style id='zakra-style-inline-css' type='text/css'>
+.tg-site-header .tg-site-header-top{color: #ffffff;}.tg-site-header .tg-site-header-top{background-color: #1c159b;background-image: ;background-repeat: repeat;background-position: center center;background-size: contain;background-attachment: scroll;}
+.tg-site-header, .tg-container--separate .tg-site-header{background-color: #ffffff;background-image: ;background-repeat: no-repeat;background-position: left center;background-size: contain;background-attachment: scroll;}
+.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{color: #fefefe;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover{color: #fefefe;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{background-color: #1c159b;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover{background-color: #2276aa;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{border-radius: 5px;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{padding: 8px 15px 8px 15px;}
+.tg-primary-menu > div > ul li:not(.tg-header-button-wrap):hover > a{color: #1e73be;}.tg-primary-menu > div ul li:active > a, .tg-primary-menu > div ul > li:not(.tg-header-button-wrap).current_page_item > a, .tg-primary-menu > div ul > li:not(.tg-header-button-wrap).current-menu-item > a{color: #1a1ead;}.tg-primary-menu.tg-primary-menu--style-underline > div ul > li:not(.tg-header-button-wrap).current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-underline > div ul > li:not(.tg-header-button-wrap).current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div ul > li:not(.tg-header-button-wrap).current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div ul > li:not(.tg-header-button-wrap).current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div ul > li:not(.tg-header-button-wrap).current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div ul > li:not(.tg-header-button-wrap).current-menu-item > a::before{background-color: #1a1ead;}
+@media (min-width: 1200px) {.tg-container{max-width: 1240px;}}
+.tg-page-header{padding: 30px 0px 30px 0px;}.tg-page-header{background-color: #eaf6fa;background-image: ;background-repeat: repeat;background-position: center center;background-size: contain;background-attachment: scroll;}.tg-page-header .breadcrumb-trail ul li{color: #5b5b5b;}.tg-page-header .breadcrumb-trail ul li::after{color: #7b7b7b;}.tg-page-header .breadcrumb-trail ul li a{color: #000000;}.tg-page-header .breadcrumb-trail ul li a:hover {color: #ffb716;}
+a:hover, a:focus,  .tg-primary-menu > div ul li:hover > a,  .tg-primary-menu > div ul li.current_page_item > a, .tg-primary-menu > div ul li.current-menu-item > a,  .tg-mobile-navigation > div ul li.current_page_item > a, .tg-mobile-navigation > div ul li.current-menu-item > a,  .entry-content a,  .tg-meta-style-two .entry-meta span, .tg-meta-style-two .entry-meta a{color: #4ac6d6;}.tg-primary-menu.tg-primary-menu--style-underline > div > ul > li.current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-underline > div > ul > li.current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div > ul > li.current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div > ul > li.current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div > ul > li.current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div > ul > li.current-menu-item > a::before, .tg-scroll-to-top:hover, button, input[type="button"], input[type="reset"], input[type="submit"], .tg-primary-menu > div ul li.tg-header-button-wrap a{background-color: #4ac6d6;}body{color: #6d6d6d;}
+button, input[type="button"], input[type="reset"], input[type="submit"]{background-color: #1c159b;}button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{background-color: #0066d3;}
+.entry-content a{color: #1a1ea3;}.entry-content a:hover, .entry-content a:focus{color: #878787;}
+.tg-site-footer .tg-site-footer-bar{color: #cccccc;}.tg-site-footer .tg-site-footer-bar a{color: #ffffff;}.tg-site-footer .tg-site-footer-bar a:hover, .tg-site-footer .tg-site-footer-bar a:focus{color: #4ac6d6;}.tg-site-footer .tg-site-footer-bar{background-color: #081726;background-image: ;background-repeat: repeat;background-position: center center;background-size: contain;background-attachment: scroll;}
+.tg-site-footer-widgets{background-color: #130b6b;background-image: ;background-repeat: no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;}.tg-site-footer .tg-site-footer-widgets{border-top-width: 0px;}.tg-site-footer .tg-site-footer-widgets .widget-title{color: #ffffff;}.tg-site-footer .tg-site-footer-widgets, .tg-site-footer .tg-site-footer-widgets p{color: #ffffff;}.tg-site-footer .tg-site-footer-widgets a{color: #ffffff;}.tg-site-footer .tg-site-footer-widgets a:hover, .tg-site-footer .tg-site-footer-widgets a:focus{color: #2aaabb;}.tg-site-footer .tg-site-footer-widgets ul li{border-bottom-color: rgba(255,255,255,0.05);}
+body{font-family: Work Sans;font-size: 15px;line-height: 1.8;font-weight: 400;font-style: normal;}h1, h2, h3, h4, h5, h6{font-family: Work Sans;line-height: 1.3;font-weight: 600;font-style: normal;}.site-branding .site-title{font-family: Work Sans;font-size: 1.313rem;line-height: 1.5;font-weight: 400;font-style: normal;}.site-branding .site-description{font-family: Work Sans;font-size: 1rem;line-height: 1.8;font-weight: 400;font-style: normal;}.tg-primary-menu > div ul li a{font-family: Work Sans;font-size: 15px;line-height: 1.8;font-weight: 400;font-style: normal;}.tg-primary-menu > div ul li ul li a{font-family: Work Sans;font-size: 1rem;line-height: 1.8;font-weight: 400;font-style: normal;}.tg-mobile-navigation a{font-family: Work Sans;font-size: 1rem;line-height: 1.8;font-weight: 400;font-style: normal;}.tg-page-header .tg-page-header__title, .tg-page-content__title{font-family: Work Sans;line-height: 1.3;font-weight: 500;font-style: normal;color: #5b5b5b;}.entry-title:not(.tg-page-content__title){font-family: Work Sans;font-size: 2.25rem;line-height: 1.3;font-weight: 500;font-style: normal;}h1{font-family: Work Sans;font-size: 2.5rem;line-height: 1.3;font-weight: 500;font-style: normal;}h2{font-family: Work Sans;font-size: 2.25rem;line-height: 1.3;font-weight: 500;font-style: normal;}h3{font-family: Work Sans;font-size: 2.25rem;line-height: 1.3;font-weight: 500;font-style: normal;}h4{font-family: Work Sans;font-size: 1.75rem;line-height: 1.3;font-weight: 500;font-style: normal;}h5{font-family: Work Sans;font-size: 1.313rem;line-height: 1.3;font-weight: 500;font-style: normal;}h6{font-family: Work Sans;font-size: 1.125rem;line-height: 1.3;font-weight: 500;font-style: normal;}.widget .widget-title{font-family: Work Sans;font-size: 20px;line-height: 1.3;font-weight: 500;font-style: normal;}.widget{font-family: Work Sans;font-size: 15px;line-height: 1.8;font-weight: 400;font-style: normal;}
+</style>
+<link rel='stylesheet' id='zakra-googlefonts-css'  href='//fonts.googleapis.com/css?family=Work+Sans%3A400%7CWork+Sans%3A600%7CWork+Sans%3A400%7CWork+Sans%3A400%7CWork+Sans%3A400%7CWork+Sans%3A400%7CWork+Sans%3A400%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A500%7CWork+Sans%3A400&#038;ver=5.4.16' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://danielaseguros.com.br/wp-content/uploads/elementor/css/global.css?ver=1590498740' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-2394-css'  href='https://danielaseguros.com.br/wp-content/uploads/elementor/css/post-2394.css?ver=1590498740' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-menus-css'  href='https://danielaseguros.com.br/wp-content/plugins/navmenu-addon-for-elementor/assets/css/frontend.min.css?ver=1.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Work+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CArima+Madurai%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.4.16' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://danielaseguros.com.br/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://danielaseguros.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://danielaseguros.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.16" />
+<meta name="generator" content="Everest Forms 1.6.7" />
+<link rel="canonical" href="https://danielaseguros.com.br/" />
+<link rel='shortlink' href='https://danielaseguros.com.br/' />
+<link rel="alternate" type="application/json+oembed" href="https://danielaseguros.com.br/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fdanielaseguros.com.br%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://danielaseguros.com.br/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fdanielaseguros.com.br%2F&#038;format=xml" />
+<!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167317408-1"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-167317408-1'); </script>		<style type="text/css">
+						.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+
+					</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://danielaseguros.com.br/wp-content/uploads/2020/05/cropped-FiviconDaniela-32x32.jpeg" sizes="32x32" />
+<link rel="icon" href="https://danielaseguros.com.br/wp-content/uploads/2020/05/cropped-FiviconDaniela-192x192.jpeg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://danielaseguros.com.br/wp-content/uploads/2020/05/cropped-FiviconDaniela-180x180.jpeg" />
+<meta name="msapplication-TileImage" content="https://danielaseguros.com.br/wp-content/uploads/2020/05/cropped-FiviconDaniela-270x270.jpeg" />
+		<style type="text/css" id="wp-custom-css">
+			.header-bar-social-icons {
+	float: right;
+}
+.header-bar-social-icons i {
+	padding-left: 15px;
+}
+.header-bar-social-icons a {
+	color: #ffffff;
+}
+
+		</style>
+		
+	</head>
+
+<body data-rsssl=1 class="home page-template-default page page-id-2394 custom-background wp-custom-logo everest-forms-no-js has-navmenu has-megamenu tg-site-layout--default tg-container--wide has-page-header elementor-default elementor-kit-1276 elementor-page elementor-page-2394">
+
+
+<div id="page" class="site tg-site">
+				<a class="skip-link screen-reader-text" href="#content">Pular para o conteúdo</a>
+		
+
+	<header id="masthead" class="site-header tg-site-header tg-site-header--left">
+
+		
+		<div class="tg-site-header-top">
+			<div class="tg-header-container tg-container tg-container--flex tg-container--flex-center">
+				<div class="tg-header-top-left-content">
+
+					<p><img class="alignnone wp-image-1465" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/telefone-300x300.png" alt="" width="20" height="20" />(31) 4109-2122  <img class="alignnone wp-image-1457" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/logo-whatsapp-297x300.png" alt="" width="20" height="20" />(31) 9 8330-7122  <img class="alignnone wp-image-1457" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/logo-whatsapp-297x300.png" alt="" width="20" height="20" />(31) 9 9739-2829</p>
+				</div>
+				<!-- /.tg-header-top-left-content -->
+				<div class="tg-header-top-right-content">
+
+					<p> <img class="alignnone wp-image-1474" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/linkedin.png" alt="" width="13" height="13" /><a style="color: #ffffff" href="https://www.linkedin.com/in/daniela-seguros-2b1a30144/" target="_blank" rel="noopener"> Linkedin  </a><img class="alignnone wp-image-1473" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/instagram.png" alt="" width="22" height="22" /> <a style="color: #ffffff" href="https://www.instagram.com/danielaseguros/" target="_blank" rel="noopener">Instagram</a> <img class="alignnone wp-image-1472" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/facebook-300x300.png" alt="" width="16" height="16" /><a style="color: #ffffff" href="https://www.facebook.com/Daniela-Seguros-354362735002282/" target="_blank" rel="noopener"> Facebook</a></p>
+				</div>
+				<!-- /.tg-header-top-right-content -->
+			</div>
+			<!-- /.tg-container -->
+		</div>
+		<!-- /.tg-site-header-top -->
+
+		
+
+	<div class="tg-site-header-bottom">
+	<div class="tg-header-container tg-container tg-container--flex tg-container--flex-center tg-container--flex-space-between">
+
+		
+		<div class="site-branding">
+			<a href="https://danielaseguros.com.br/" class="custom-logo-link" rel="home"><img width="200" height="84" src="https://danielaseguros.com.br/wp-content/uploads/2020/05/cropped-logo-Daniela-transparente-peqPNG-e1588722863813.png" class="custom-logo" alt="Daniela Seguros" /></a>			<div class="site-info-wrap">
+									<p class="site-title">
+						<a href="https://danielaseguros.com.br/" rel="home">Daniela Seguros</a>
+					</p>
+										<p class="site-description">Você sempre seguro!</p>
+							</div>
+
+		</div><!-- .site-branding -->
+				<nav id="site-navigation" class="main-navigation tg-primary-menu tg-primary-menu--style-underline tg-extra-menus">
+				<div class="menu"><ul id="primary-menu" class="menu-primary"><li id="menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2394 current_page_item menu-item-2415"><a href="https://danielaseguros.com.br/" aria-current="page">INÍCIO</a></li>
+<li id="menu-item-2270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2270"><a href="https://danielaseguros.com.br/?page_id=2161">SEGUROS</a></li>
+<li id="menu-item-2143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2143"><a href="https://danielaseguros.com.br/?page_id=1438">SEGURO ESTAGIÁRIO</a></li>
+<li id="menu-item-1373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1373"><a href="https://danielaseguros.com.br/?page_id=1359">ASSISTÊNCIA 24hs</a></li>
+<li id="menu-item-1416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1416"><a href="https://danielaseguros.com.br/?page_id=1410">SINISTRO</a></li>
+<li id="menu-item-1372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1372"><a href="https://danielaseguros.com.br/?page_id=1367">CONTATOS</a></li>
+<li class="menu-item menu-item-has-children tg-menu-extras-wrap"><span class="submenu-expand"><i class="fa fa-ellipsis-v"></i></span><ul class="sub-menu" id="tg-menu-extras"></ul></li></ul></div>		</nav><!-- #site-navigation -->
+				<nav id="header-action" class="tg-header-action">
+			<ul class="tg-header-action-list">
+
+				<li class="tg-header-action__item tg-mobile-toggle" >
+										<i class="tg-icon tg-icon-bars"></i>
+				</li>
+				<!-- /.tg-mobile-toggle -->
+			</ul>
+			<!-- /.zakra-header-action-list -->
+		</nav><!-- #header-action -->
+				
+	</div>
+	<!-- /.tg-container -->
+	</div>
+	<!-- /.tg-site-header-bottom -->
+		
+	</header><!-- #masthead -->
+		
+	<main id="main" class="site-main">
+				<div id="content" class="site-content">
+			<div class="tg-container tg-container--flex tg-container--flex-space-between">
+		
+	<div id="primary" class="content-area">
+		
+		
+<article id="post-2394" class="post-2394 page type-page status-publish hentry zakra-article-page">
+	<header class="entry-header">
+		<h1 class="entry-title tg-page-content__title">INÍCIO</h1>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+				<div data-elementor-type="wp-page" data-elementor-id="2394" class="elementor elementor-2394" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-6bda8c4 elementor-section-stretched elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible elementor-section elementor-top-section" data-id="6bda8c4" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-acfbd1f elementor-column elementor-col-100 elementor-top-column" data-id="acfbd1f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-af2ba8c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="af2ba8c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-114f140 elementor-column elementor-col-33 elementor-inner-column" data-id="114f140" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-b921afd elementor-column elementor-col-33 elementor-inner-column" data-id="b921afd" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6131e37 elementor-widget elementor-widget-text-editor" data-id="6131e37" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><span style="color: #ffffff;">Bem Vindo à</span></h4></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d548861 elementor-widget elementor-widget-heading" data-id="d548861" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><h2 class="elementor-heading-title elementor-size-default elementor-inline-editing pen" data-elementor-setting-key="title" data-pen-placeholder="Digite aqui..." style="font-size: 60px; color: rgb(255, 255, 255); line-height: 1.3em; text-transform: capitalize;"><font style="vertical-align: inherit;">Daniela Seguros</font></h2></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-c519ce2 elementor-column elementor-col-33 elementor-inner-column" data-id="c519ce2" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-dcade44 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="dcade44" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-21977e1 elementor-column elementor-col-100 elementor-top-column" data-id="21977e1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c8a6d8e elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="c8a6d8e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><span style="color: #000080;">Conheça a empresa</span></h4></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ba1f9f5 elementor-widget elementor-widget-heading" data-id="ba1f9f5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Daniela Seguros</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ac89347 elementor-widget elementor-widget-text-editor" data-id="ac89347" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: justify;"><span style="color: #000000;"> <span style="font-family: 'Work Sans'; font-size: 1.313rem; text-align: justify;">Administradora com carreira iniciada em 1998 em uma conceituada Seguradora (multinacional) e com ampla experiência em gestão de corretoras de seguros. Idealizou seu sonho com incentivo familiar e de amigos, empreendendo em seu próprio negócio com a abertura da corretora Daniela Seguros no ano de 2017. Mesmo sabendo que iria encarar uma estrada longa e cheia de barreiras, mas que reserva sorrisos e sucesso para quem chega até o seu destino. </span></span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-251ed9c elementor-widget elementor-widget-spacer" data-id="251ed9c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-84fbdde elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="84fbdde" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3879c13 elementor-column elementor-col-100 elementor-top-column" data-id="3879c13" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-8206fa7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="8206fa7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3a7ded3 elementor-column elementor-col-20 elementor-inner-column" data-id="3a7ded3" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-aed7097 elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="aed7097" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-" >
+				<i aria-hidden="true" class="fas fa-check-double"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span ></span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9430a89 elementor-widget elementor-widget-heading" data-id="9430a89" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Missão</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d82965e elementor-widget elementor-widget-text-editor" data-id="d82965e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><span style="color: #ffffff; text-align: center; white-space: pre-wrap;">Zelar pelo patrimônio dos segurados com ética e responsabilidade.</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-f5ac3be elementor-column elementor-col-20 elementor-inner-column" data-id="f5ac3be" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-971d30c elementor-column elementor-col-20 elementor-inner-column" data-id="971d30c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-def912b elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="def912b" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-" >
+				<i aria-hidden="true" class="fas fa-check-double"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span ></span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e00b300 elementor-widget elementor-widget-heading" data-id="e00b300" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Visão</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5b34259 elementor-widget elementor-widget-text-editor" data-id="5b34259" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><span style="color: #ffffff; white-space: pre-wrap;">Ser referência em atendimento ao cliente, proporcionando tranquilidade.</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-61466d9 elementor-column elementor-col-20 elementor-inner-column" data-id="61466d9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-7c41c46 elementor-column elementor-col-20 elementor-inner-column" data-id="7c41c46" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-fbdb241 elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="fbdb241" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-" >
+				<i aria-hidden="true" class="fas fa-check-double"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span ></span>
+				</h3>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-dbd8f52 elementor-widget elementor-widget-heading" data-id="dbd8f52" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Valores</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3b295da elementor-widget elementor-widget-text-editor" data-id="3b295da" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><span style="color: #ffffff; white-space: pre-wrap;">Respeito e transparência no relacionamento com cliente.</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-d5f10ec elementor-widget elementor-widget-spacer" data-id="d5f10ec" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e1968f3 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e1968f3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-736af67 elementor-column elementor-col-100 elementor-top-column" data-id="736af67" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-55f4478 elementor-widget elementor-widget-heading" data-id="55f4478" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Depoimentos</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e91ee39 elementor-widget elementor-widget-heading" data-id="e91ee39" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Veja o que os nossos segurados dizem sobre nós...</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-26ad873 elementor-widget elementor-widget-spacer" data-id="26ad873" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-element elementor-element-59e0912 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="59e0912" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3f93fe8 elementor-column elementor-col-33 elementor-inner-column" data-id="3f93fe8" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-16fa00e elementor-widget elementor-widget-testimonial" data-id="16fa00e" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-left">
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img width="150" height="150" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/Gabriela-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" />						</div>
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">Gabriela Barbosa</div>
+																						<div class="elementor-testimonial-job">Brasília - DF<br>Seguro Viagem</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-da8855e elementor-widget elementor-widget-text-editor" data-id="da8855e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #000000;">&#8220;Daniela Seguros faz jus ao nome da empresa. Transmite segurança, confiança, profissionalismo e comprometimento. Em todas as experiências com a corretora tive um atendimento personalizado e muito competente. Cotações em prazo rápido, variedade de possibilidades, compromisso no serviço e absoluta solicitude, independente do momento. No meu caso, seguro de viagens, fui totalmente acolhida desde muito antes do início das minhas viagens até o final delas. Trabalho de excelência em cada detalhe.&#8221;</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-9dc358a elementor-column elementor-col-33 elementor-inner-column" data-id="9dc358a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-288a20d elementor-widget elementor-widget-testimonial" data-id="288a20d" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-left">
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img width="150" height="150" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/depoimento-jane-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" />						</div>
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">Jane Moreira</div>
+																						<div class="elementor-testimonial-job">Ribeirão das Neves – MG  Seguro Automóvel</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-421bb7e elementor-widget elementor-widget-text-editor" data-id="421bb7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: justify;"><span style="color: #000000;">&#8220;Há 3 anos eu e meu esposo temos o seguro dos nossos carros com a Daniela Seguros. Sempre que precisamos, temos o suporte necessário para nos atender e ajudar.</span></p><p style="text-align: justify;"><span style="color: #000000;">Indiquei para alguns amigos que fecharam com ela e também estão super satisfeitos em relação ao atendimento e valores. Super indico!&#8221;</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-9c4755e elementor-column elementor-col-33 elementor-inner-column" data-id="9c4755e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-124e879 elementor-widget elementor-widget-testimonial" data-id="124e879" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper elementor-testimonial-text-align-left">
+			
+						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+				<div class="elementor-testimonial-meta-inner">
+											<div class="elementor-testimonial-image">
+							<img width="150" height="150" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/depoimento-Raquel-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" />						</div>
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">Raquel Machado</div>
+																						<div class="elementor-testimonial-job">Belo Horizonte - MG<br>Seguro Automóvel, Residencial e Viagem</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7c2ce5e elementor-widget elementor-widget-text-editor" data-id="7c2ce5e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: justify;"><span style="text-align: left; white-space: pre-wrap; color: #000000;">&#8220;Tive a oportunidade de usar os serviços dela com, seguro de automóveis, viagem e residencial, e fui super bem assistida ela faz um trabalho diferenciado, dá atenção ao cliente, faz questão de ajudar e prestar toda assistência necessária para que o segurado se sinta seguro. Super indico, trabalho de excelência!&#8221;</span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-d11d277 elementor-widget elementor-widget-text-editor" data-id="d11d277" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p> </p><p style="text-align: center;"><a href="https://danielaseguros.com.br/?page_id=2045"><strong><span style="color: #ffffff;">CLIQUE AQUI PARA LER MAIS DEPOIMENTOS</span></strong></a></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+			</div><!-- .entry-content -->
+
+	</article><!-- #post-2394 -->
+
+			</div><!-- #primary -->
+
+
+			</div>
+		<!-- /.tg-container-->
+		</div>
+		<!-- /#content-->
+				</main><!-- /#main -->
+		
+			<footer id="colophon" class="site-footer tg-site-footer ">
+		
+		
+		<div class="tg-site-footer-widgets">
+			<div class="tg-container">
+				
+<div class="tg-footer-widget-container tg-footer-widget-col--four">
+					<div class="tg-footer-widget-area footer-sidebar-1">
+											<section id="text-8" class="widget widget_text">			<div class="textwidget"><p style="text-align: center;">Atendimento em Todo o Território Nacional.<em><br />
+<img class="wp-image-1459 aligncenter" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/mapabrasil-300x300.png" alt="" width="77" height="77" /> </em></p>
+<p>&nbsp;</p>
+</div>
+		</section>									</div>
+								<div class="tg-footer-widget-area footer-sidebar-2">
+											<section id="text-6" class="widget widget_text">			<div class="textwidget"><p style="text-align: center;"><strong>Horário de Atendimento</strong></p>
+<p style="text-align: center;">De Segunda à Sexta<br />
+Das 09hs às 18hs</p>
+</div>
+		</section>									</div>
+								<div class="tg-footer-widget-area footer-sidebar-3">
+											<section id="text-2" class="widget widget_text"><h2 class="widget-title">Contatos</h2>			<div class="textwidget"><p><img class="alignnone wp-image-1465" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/telefone-300x300.png" alt="" width="20" height="20" /> (31) 4109-2122<br />
+<img class="alignnone wp-image-1457" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/logo-whatsapp-297x300.png" alt="" width="20" height="20" /> (31) 9 8330-7122<br />
+<img class="alignnone wp-image-1457" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/logo-whatsapp-297x300.png" alt="" width="20" height="20" /> (31) 9 9739-2829<br />
+contato@danielaseguros.com.br</p>
+</div>
+		</section>									</div>
+								<div class="tg-footer-widget-area footer-sidebar-4">
+											<section id="text-11" class="widget widget_text"><h2 class="widget-title">Redes Sociais</h2>			<div class="textwidget"><p><img class="alignnone wp-image-1474" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/linkedin.png" alt="" width="18" height="18" /><a style="color: #ffffff;" href="https://www.linkedin.com/in/daniela-seguros-2b1a30144/"target="_blank"> Linkedin  </a><br />
+<img class="alignnone wp-image-1473" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/instagram.png" alt="" width="22" height="22" /><a style="color: #ffffff;" href="https://www.instagram.com/danielaseguros/"target="_blank">Instagram</a><br />
+<img class="alignnone wp-image-1472" src="https://danielaseguros.com.br/wp-content/uploads/2020/04/facebook-300x300.png" alt="" width="16" height="16" /><a style="color: #ffffff;" href="https://www.facebook.com/Daniela-Seguros-354362735002282/"target="_blank"> Facebook</a></p>
+</div>
+		</section>									</div>
+				</div> <!-- /.tg-footer-widget-container -->
+			</div><!-- /.tg-container-->
+		</div><!-- /.tg-site-footer-widgets -->
+
+		
+		
+		<div class="tg-site-footer-bar tg-site-footer-bar--center">
+			<div class="tg-container tg-container--flex tg-container--flex-top">
+				<div class="tg-site-footer-section-1">
+
+					<strong>Feliz é o homem que empresta com generosidade e que com honestidade conduz os seus negócios... Salmo 112:5.<br></strong>
+Desenvolvido por <a title="Daniela Seguros" href="http://paulohpo.com.br/">PauloHPO </a>- Soluções para WEB
+				</div>
+				<!-- /.tg-site-footer-section-1 -->
+
+				<div class="tg-site-footer-section-2">
+
+					
+				</div>
+				<!-- /.tg-site-footer-section-2 -->
+			</div>
+			<!-- /.tg-container-->
+		</div>
+		<!-- /.tg-site-footer-bar -->
+
+		
+			</footer><!-- #colophon -->
+		
+		</div><!-- #page -->
+				<nav id="mobile-navigation" class="tg-mobile-navigation"
+			>
+
+			<div class="menu-main-menu-container"><ul id="mobile-primary-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2394 current_page_item menu-item-2415"><a href="https://danielaseguros.com.br/" aria-current="page">INÍCIO</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2270"><a href="https://danielaseguros.com.br/?page_id=2161">SEGUROS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2143"><a href="https://danielaseguros.com.br/?page_id=1438">SEGURO ESTAGIÁRIO</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1373"><a href="https://danielaseguros.com.br/?page_id=1359">ASSISTÊNCIA 24hs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1416"><a href="https://danielaseguros.com.br/?page_id=1410">SINISTRO</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1372"><a href="https://danielaseguros.com.br/?page_id=1367">CONTATOS</a></li>
+<li class="menu-item menu-item-has-children tg-menu-extras-wrap"><span class="submenu-expand"><i class="fa fa-ellipsis-v"></i></span><ul class="sub-menu" id="tg-menu-extras"></ul></li></ul></div>
+		</nav><!-- /#mobile-navigation-->
+		
+		<a href="#" id="tg-scroll-to-top" class="tg-scroll-to-top">
+			<i class="tg-icon tg-icon-arrow-up"><span
+						class="screen-reader-text">Rolar para o topo</span></i>
+		</a>
+
+		<div class="tg-overlay-wrapper"></div>
+		
+    <style type='text/css'>
+        .whatsapp {
+            /*background: url();*/
+            background: url(https://danielaseguros.com.br/wp-content/plugins/wln-chat/images/botao-wln-whatsapp-2.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: fixed!important;
+            bottom: 3%;
+            width: 61px;
+            height: 50px;
+            display: block;
+            margin: 7px 10px;
+            left:0;
+            margin-bottom:40px;
+            z-index: 99999;
+        }
+
+        @media only screen and (max-width: 768px) {
+           .zap-desk{
+              display: none;
+          }
+      }
+
+      @media only screen and (min-width: 769px) {
+        .zap-mob{
+            display: none;
+        }
+    }
+</style>
+
+<script>
+/**
+https://support.google.com/analytics/answer/7478520?hl=pt-BR
+* Função que acompanha um clique em um link externo no Google Analytics.
+* Essa função processa uma string de URL válida como um argumento e usa essa string de URL
+* como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
+* usando 'navigator.sendBeacon' em um navegador compatível.
+*/
+
+// Register Dsktop
+var trackOutboundLink = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': 'whatsapp',
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+});
+}
+
+//Register Mobile
+var trackOutboundLinkMob = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': 'Whatsapp_Mob',
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+});
+
+}
+</script>
+
+<!-- https://danielaseguros.com.br/ -->
+
+<a target="_blank" href='https://web.whatsapp.com/send?phone=5531983307122&text=Meu nome é Daniela.
+Em que posso ajudar?' rel='noopener noreferrer' class="zap-desk" onclick="trackOutboundLink('https://danielaseguros.com.br/ '); return true;">
+
+    <div class='whatsapp'></div>
+
+</a>
+
+<a href='https://wa.me/5531983307122&text=Meu nome é Daniela.
+Em que posso ajudar?' target='_blank' rel='noopener noreferrer' class="zap-mob"  onclick="trackOutboundLinkMob('https://danielaseguros.com.br/ '); return true;">
+
+    <div class='whatsapp'></div>
+
+</a>
+
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace( /everest-forms-no-js/, 'everest-forms-js' );
+		document.body.className = c;
+	</script>
+	<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/themes/zakra/assets/js/navigation.min.js?ver=20151215'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/themes/zakra/assets/js/skip-link-focus-fix.min.js?ver=20151215'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/themes/zakra/assets/js/zakra-custom.min.js?ver=5.4.16'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-includes/js/wp-embed.min.js?ver=5.4.16'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/navmenu-addon-for-elementor/assets/js/modernizr.custom.js?ver=1.1.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ElementorMenusFrontendConfig = {"ajaxurl":"https:\/\/danielaseguros.com.br\/wp-admin\/admin-ajax.php","nonce":"75b64ff779"};
+var elementorScreenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+var elementorSecondaryScreenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/navmenu-addon-for-elementor/assets/js/frontend.min.js?ver=1.1.6'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=2.9.9'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6'></script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=2.9.9'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","downloadImage":"Baixar imagem"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.9.9","urls":{"assets":"https:\/\/danielaseguros.com.br\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_lightbox_enable_counter":"yes","elementor_lightbox_enable_fullscreen":"yes","elementor_lightbox_enable_zoom":"yes","elementor_lightbox_enable_share":"yes","elementor_lightbox_title_src":"title","elementor_lightbox_description_src":"description"},"editorPreferences":[]},"post":{"id":2394,"title":"Daniela%20Seguros%20%E2%80%93%20Voc%C3%AA%20sempre%20seguro%21","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='https://danielaseguros.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.9'></script>
+
+</body>
+</html>
