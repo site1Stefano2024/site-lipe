@@ -1,0 +1,804 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento - Soluções Financeiras Inteligentes</title>
+    <meta name="description" content="Empresa líder em soluções financeiras, oferecendo renegociação de dívidas, consultoria e serviços personalizados para pessoas físicas e jurídicas.">
+    <meta name="keywords" content="serviços financeiros, renegociação de dívidas, consultoria financeira, crédito, empréstimos">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="https://images.unsplash.com/photo-1496307653780-42ee777d4833?w=150&h=40&fit=crop&crop=center" alt="FinanceiroPro Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            A Empresa
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#sobre">Sobre Nós</a></li>
+                            <li><a class="dropdown-item" href="#cultura">Nossa Cultura</a></li>
+                            <li><a class="dropdown-item" href="#vantagens">Clube de Vantagens</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solucoes">Nossas Soluções</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Quero Pagar
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#negociar">Negociar Dívidas</a></li>
+                            <li><a class="dropdown-item" href="#boleto">2ª via de boleto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carreiras">Trabalhe Conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="hero-title">
+                            Soluções Financeiras <span class="text-blue-300">Inteligentes</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Transformamos desafios financeiros em oportunidades de crescimento. 
+                            Especialistas em renegociação de dívidas e consultoria personalizada.
+                        </p>
+                        <button class="btn btn-primary-custom btn-lg" onclick="openWhatsApp()">
+                            <i class="fas fa-search me-2"></i>
+                            Consultar CPF
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop&crop=center" 
+                             alt="Soluções Financeiras" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="solucoes" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-4 fw-bold text-primary mb-3" data-aos="fade-up">
+                        Nossos Serviços
+                    </h2>
+                    <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                        Soluções completas para suas necessidades financeiras
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card h-100" data-aos="fade-up" data-aos-delay="0">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="mb-3 text-primary">Renegociar Dívida</h4>
+                        <p class="text-muted mb-4">Condições especiais para quitar suas pendências financeiras.</p>
+                        <button onclick="openWhatsAppService('Renegociar Dívida')" class="btn btn-outline-primary btn-sm">
+                            Acessar Serviço
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card h-100" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-file-invoice"></i>
+                        </div>
+                        <h4 class="mb-3 text-primary">2ª Via do Boleto</h4>
+                        <p class="text-muted mb-4">Acesse rapidamente a segunda via dos seus boletos.</p>
+                        <button onclick="openWhatsAppService('2ª Via do Boleto')" class="btn btn-outline-primary btn-sm">
+                            Acessar Serviço
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card h-100" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4 class="mb-3 text-primary">Fale com a Ouvidoria</h4>
+                        <p class="text-muted mb-4">Canal direto para suas reclamações e sugestões.</p>
+                        <button onclick="openWhatsAppService('Fale com a Ouvidoria')" class="btn btn-outline-primary btn-sm">
+                            Acessar Serviço
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card h-100" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4 class="mb-3 text-primary">Antecipação de Parcelas</h4>
+                        <p class="text-muted mb-4">Personalize serviços financeiros para sua necessidade.</p>
+                        <button onclick="openWhatsAppService('Contrate Soluções')" class="btn btn-outline-primary btn-sm">
+                            Acessar Serviço
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="py-20 bg-white">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="display-4 fw-bold text-primary mb-4" data-aos="fade-up">
+                    Sobre Nossa Empresa
+                </h2>
+                <p class="lead text-muted max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    Somos uma empresa líder em soluções financeiras, comprometida em transformar 
+                    a vida financeira dos brasileiros através de serviços inovadores e personalizados.
+                </p>
+            </div>
+
+            <!--
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop&crop=center" 
+                         alt="Nossa empresa" class="img-fluid rounded shadow-lg">
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="display-6 fw-bold text-primary mb-4">
+                        Nossa História
+                    </h3>
+                    <p class="text-muted mb-4">
+                        Fundada em 2008, nossa empresa nasceu com o propósito de democratizar 
+                        o acesso a soluções financeiras de qualidade. Começamos como uma pequena 
+                        consultoria e hoje somos referência nacional em renegociação de dívidas.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Ao longo dos anos, ajudamos mais de 500.000 brasileiros a recuperarem 
+                        sua saúde financeira, sempre com transparência, ética e comprometimento 
+                        com resultados sustentáveis.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <span class="badge bg-primary fs-6 px-3 py-2">500k+ Clientes</span>
+                        <span class="badge bg-success fs-6 px-3 py-2">15+ Anos</span>
+                        <span class="badge bg-info fs-6 px-3 py-2">98% Satisfação</span>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-4 bg-light rounded" data-aos="fade-up" data-aos-delay="0">
+                        <div class="service-icon mb-3">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="h5 fw-bold text-primary mb-3">Segurança</h4>
+                        <p class="text-muted">Proteção total dos seus dados com criptografia de ponta e sistemas seguros.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-4 bg-light rounded" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon mb-3">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="h5 fw-bold text-primary mb-3">Confiança</h4>
+                        <p class="text-muted">Mais de 15 anos de experiência no mercado financeiro brasileiro.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-4 bg-light rounded" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon mb-3">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="h5 fw-bold text-primary mb-3">Inovação</h4>
+                        <p class="text-muted">Soluções tecnológicas avançadas para facilitar sua vida financeira.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center p-4 bg-light rounded" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon mb-3">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="h5 fw-bold text-primary mb-3">Atendimento</h4>
+                        <p class="text-muted">Equipe especializada disponível para atender suas necessidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-white mb-4" data-aos="fade-up">
+                    Nossos Números Falam Por Si
+                </h2>
+                <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">
+                    Resultados que comprovam nossa excelência e compromisso com nossos clientes
+                </p>
+            </div>
+
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card text-center" data-aos="fade-up" data-aos-delay="0">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number">500K+</div>
+                        <h4 class="stat-label">Clientes Atendidos</h4>
+                        <p class="stat-description">Pessoas que confiaram em nossos serviços</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-number">R$ 2,8B</div>
+                        <h4 class="stat-label">Volume Negociado</h4>
+                        <p class="stat-description">Em renegociações realizadas com sucesso</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-number">98%</div>
+                        <h4 class="stat-label">Satisfação</h4>
+                        <p class="stat-description">Dos clientes recomendam nossos serviços</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-number">24/7</div>
+                        <h4 class="stat-label">Atendimento</h4>
+                        <p class="stat-description">Suporte disponível todos os dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary mb-3" data-aos="fade-up">
+                    Nossos Parceiros
+                </h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Trabalhamos com as principais instituições financeiras do país
+                </p>
+            </div>
+
+            <div class="swiper partners-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=150&h=60&fit=crop&crop=center" 
+                                 alt="Banco do Brasil" class="partner-logo">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=150&h=60&fit=crop&crop=center" 
+                                 alt="Caixa Econômica" class="partner-logo">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=150&h=60&fit=crop&crop=center" 
+                                 alt="Bradesco" class="partner-logo">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=150&h=60&fit=crop&crop=center" 
+                                 alt="Itaú" class="partner-logo">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=150&h=60&fit=crop&crop=center" 
+                                 alt="Santander" class="partner-logo">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text-center">
+                            <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=150&h=60&fit=crop&crop=center" 
+                                 alt="Nubank" class="partner-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary mb-4" data-aos="fade-up">
+                    O Que Nossos Clientes Dizem
+                </h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Histórias reais de pessoas que transformaram sua vida financeira conosco
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face" 
+                                 alt="Maria Silva" class="testimonial-avatar">
+                            <div class="ms-3">
+                                <h5 class="mb-0">Maria Silva</h5>
+                                <small class="text-muted">Empresária</small>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        
+                        <p class="text-muted mb-4">
+                            "Consegui renegociar todas as minhas dívidas com condições excelentes. O atendimento foi personalizado e muito profissional. Recomendo para todos!"
+                        </p>
+                        
+                        <div class="d-flex align-items-center text-success">
+                            <i class="fas fa-check-circle me-2"></i>
+                            <small>Cliente Verificado</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" 
+                                 alt="João Santos" class="testimonial-avatar">
+                            <div class="ms-3">
+                                <h5 class="mb-0">João Santos</h5>
+                                <small class="text-muted">Professor</small>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        
+                        <p class="text-muted mb-4">
+                            "Estava com o nome sujo há anos. Em menos de 30 dias consegui limpar meu CPF e ainda obtive crédito pré-aprovado. Serviço excepcional!"
+                        </p>
+                        
+                        <div class="d-flex align-items-center text-success">
+                            <i class="fas fa-check-circle me-2"></i>
+                            <small>Cliente Verificado</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" 
+                                 alt="Ana Costa" class="testimonial-avatar">
+                            <div class="ms-3">
+                                <h5 class="mb-0">Ana Costa</h5>
+                                <small class="text-muted">Comerciante</small>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        
+                        <p class="text-muted mb-4">
+                            "O suporte foi incrível! Me ajudaram a entender cada passo da negociação. Hoje tenho controle total das minhas finanças."
+                        </p>
+                        
+                        <div class="d-flex align-items-center text-success">
+                            <i class="fas fa-check-circle me-2"></i>
+                            <small>Cliente Verificado</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary mb-4" data-aos="fade-up">
+                    Últimas Notícias e Dicas
+                </h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Mantenha-se informado com nossos artigos sobre educação financeira e mercado
+                </p>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <article class="blog-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop" 
+                                 alt="Como Negociar Dívidas" class="img-fluid">
+                            <span class="blog-category">Dicas Financeiras</span>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span>15 Jan 2024</span>
+                                <span>•</span>
+                                <span>5 min</span>
+                                <span>•</span>
+                                <span>Equipe Financeira</span>
+                            </div>
+                            
+                            <h3 class="blog-title">Como Negociar Dívidas de Forma Inteligente em 2024</h3>
+                            
+                            <p class="blog-excerpt">
+                                Descubra as melhores estratégias para renegociar suas pendências financeiras e recuperar seu CPF limpo.
+                            </p>
+                            
+                            <a href="#" class="blog-link">
+                                Ler mais <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" 
+                                 alt="Entenda o Serasa" class="img-fluid">
+                            <span class="blog-category">Educação Financeira</span>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span>12 Jan 2024</span>
+                                <span>•</span>
+                                <span>7 min</span>
+                                <span>•</span>
+                                <span>Ana Consultora</span>
+                            </div>
+                            
+                            <h3 class="blog-title">Entenda o Serasa e Como Limpar Seu Nome</h3>
+                            
+                            <p class="blog-excerpt">
+                                Guia completo sobre consulta CPF, score de crédito e como melhorar sua situação no SPC e Serasa.
+                            </p>
+                            
+                            <a href="#" class="blog-link">
+                                Ler mais <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1554224154-26032fced2c7?w=400&h=250&fit=crop" 
+                                 alt="Planejamento Financeiro" class="img-fluid">
+                            <span class="blog-category">Planejamento</span>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span>10 Jan 2024</span>
+                                <span>•</span>
+                                <span>6 min</span>
+                                <span>•</span>
+                                <span>João Especialista</span>
+                            </div>
+                            
+                            <h3 class="blog-title">Planejamento Financeiro Pessoal: Passo a Passo</h3>
+                            
+                            <p class="blog-excerpt">
+                                Aprenda a organizar suas finanças pessoais e criar um orçamento familiar eficiente.
+                            </p>
+                            
+                            <a href="#" class="blog-link">
+                                Ler mais <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#blog" class="btn btn-primary btn-lg">
+                    Ver Todos os Artigos
+                    <i class="fas fa-external-link-alt ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section class="media-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary mb-3" data-aos="fade-up">
+                    Na Mídia
+                </h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Acompanhe as principais notícias sobre nossa empresa
+                </p>
+            </div>
+
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="0">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=120&h=50&fit=crop&crop=center" 
+                             alt="Folha de S.Paulo" class="media-logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=120&h=50&fit=crop&crop=center" 
+                             alt="Estado de S.Paulo" class="media-logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=120&h=50&fit=crop&crop=center" 
+                             alt="Valor Econômico" class="media-logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1496307653780-42ee777d4833?w=120&h=50&fit=crop&crop=center" 
+                             alt="Exame" class="media-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="carreiras" class="career-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div data-aos="fade-up">
+                        <h2 style="color: #fff;">Faça Parte da Nossa Equipe</h2>
+                        <p>
+                            Junte-se a nós e ajude a transformar o mercado financeiro brasileiro. 
+                            Oferecemos um ambiente de trabalho colaborativo e oportunidades de crescimento.
+                        </p>
+                        <button class="btn btn-primary-custom btn-lg" onclick="openWhatsApp()">
+                            <i class="fas fa-users me-2"></i>
+                            Ver Oportunidades
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary mb-4" data-aos="fade-up">
+                    Perguntas Frequentes
+                </h2>
+                <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">
+                    Tire suas dúvidas sobre nossos serviços e encontre as respostas que você precisa
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <!-- Renegociação de Dívidas -->
+                <div class="faq-category mb-5" data-aos="fade-up" data-aos-delay="0">
+                    <div class="faq-header">
+                        <h3><i class="fas fa-question-circle me-3"></i>Renegociação de Dívidas</h3>
+                    </div>
+                    
+                    <div class="accordion" id="faqRenegociacao">
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Como posso renegociar minhas dívidas?
+                                </button>
+                            </h4>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqRenegociacao">
+                                <div class="accordion-body">
+                                    Você pode renegociar suas dívidas através do nosso portal online, pelo telefone ou visitando uma de nossas agências. Nossa equipe especializada irá analisar seu caso e apresentar as melhores condições com descontos de até 90%.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Qual o prazo para aprovação da renegociação?
+                                </button>
+                            </h4>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqRenegociacao">
+                                <div class="accordion-body">
+                                    O prazo médio para aprovação é de 24 a 48 horas úteis, dependendo da complexidade da análise e da documentação apresentada. Para casos urgentes, temos um canal prioritário.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Serviços Online -->
+                <div class="faq-category mb-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-header">
+                        <h3><i class="fas fa-question-circle me-3"></i>Serviços Online</h3>
+                    </div>
+                    
+                    <div class="accordion" id="faqServicos">
+                        <div class="accordion-item">
+                            <h4 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Como obter a 2ª via do boleto?
+                                </button>
+                            </h4>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqServicos">
+                                <div class="accordion-body">
+                                    A segunda via do boleto pode ser obtida através do nosso site, aplicativo móvel ou central de atendimento. É necessário informar seu CPF e dados de identificação. O processo é instantâneo e gratuito.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA -->
+            <div class="text-center mt-5">
+                <div class="contact-cta">
+                    <i class="fas fa-headset"></i>
+                    <h3>Não encontrou sua resposta?</h3>
+                    <p>Nossa equipe de especialistas está pronta para atender você</p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+                        <button onclick="openWhatsApp()" class="btn btn-primary">
+                            <i class="fas fa-phone me-2"></i>
+                            Falar por Telefone
+                        </button>
+                        <button onclick="openWhatsApp()" class="btn btn-success">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5>Atendimento</h5>
+                    <p class="mb-4">
+                        Transformando desafios financeiros em oportunidades de crescimento há mais de 10 anos.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#carreiras">Carreiras</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Serviços</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#negociar">Renegociar Dívidas</a></li>
+                        <li><a href="#boleto">2ª Via Boleto</a></li>
+                        <li><a href="#ouvidoria">Ouvidoria</a></li>
+                        <li><a href="#contratar">Contrate Soluções</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Atendimento. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="me-3">Política de Privacidade</a>
+                    <a href="#" class="me-3">Termos de Uso</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="#" onclick="openWhatsApp(); return false;" class="whatsapp-float" aria-label="Entre em contato pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
