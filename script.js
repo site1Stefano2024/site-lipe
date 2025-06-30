@@ -2,7 +2,7 @@
 // JavaScript for FinanceiroPro Static Website
 
 // WhatsApp Configuration
-const phoneNumber = '5592984215343';
+const phoneNumber = '551151924444';
 const defaultMessage = 'Olá, desejo um atendimento!';
 
 // Initialize everything when DOM is loaded
