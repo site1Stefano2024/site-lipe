@@ -1,303 +1,479 @@
+// WhatsApp Integration
+const WHATSAPP_NUMBER = '1151924444';
 
-// JavaScript for FinanceiroPro Static Website
+function openWhatsApp(message) {
+    const encodedMessage = encodeURIComponent(message);
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
+    window.open(url, '_blank');
+}
 
-// WhatsApp Configuration
-const phoneNumber = '551151924444';
-const defaultMessage = 'Olá, desejo um atendimento!';
+// Hero Banner Carousel
+class HeroBanner {
+    constructor() {
+        this.slides = [
+            {
+                title: 'Cuide bem de quem cuida do seu corpo:',
+                subtitle: 'sua mente.',
+                description: 'Programas de bem-estar e saúde mental para toda a família',
+                message: 'Gostaria de conhecer os programas de bem-estar'
+            },
+            {
+                title: 'Mais de 25 anos',
+                subtitle: 'cuidando da sua saúde',
+                description: 'Uma rede completa de hospitais, clínicas e laboratórios próximos de você',
+                message: 'Quero conhecer a rede de atendimento'
+            },
+            {
+                title: 'Telemedicina',
+                subtitle: '24 horas por dia',
+                description: 'Consultas médicas online com especialistas qualificados',
+                message: 'Preciso de atendimento por telemedicina'
+            }
+        ];
+        
+        this.currentSlide = 0;
+        this.autoSlideInterval = null;
+        
+        this.init();
+    }
+    
+    init() {
+        this.createSlides();
+        this.bindEvents();
+        this.startAutoSlide();
+    }
+    
+    createSlides() {
+        const heroSection = document.querySelector('.hero-banner');
+        if (!heroSection) return;
+        
+        // Clear existing slides
+        heroSection.innerHTML = '';
+        
+        // Create slides
+        this.slides.forEach((slide, index) => {
+            const slideElement = document.createElement('div');
+            slideElement.className = `hero-slide ${index === 0 ? 'active' : ''}`;
+            slideElement.innerHTML = `
+                <div class="hero-background"></div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            ${slide.title}
+                            <span class="accent">${slide.subtitle}</span>
+                        </h1>
+                        <p class="hero-description">${slide.description}</p>
+                        <button class="btn-hero" onclick="openWhatsApp('${slide.message}')">
+                            Falar no WhatsApp
+                        </button>
+                    </div>
+                </div>
+            `;
+            heroSection.appendChild(slideElement);
+        });
+        
+        // Create controls
+        const controls = document.createElement('div');
+        controls.className = 'hero-controls';
+        controls.innerHTML = `
+            <button class="hero-nav prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="hero-nav next"><i class="fas fa-chevron-right"></i></button>
+            <div class="hero-indicators">
+                ${this.slides.map((_, index) => 
+                    `<span class="indicator ${index === 0 ? 'active' : ''}" data-slide="${index}"></span>`
+                ).join('')}
+            </div>
+        `;
+        heroSection.appendChild(controls);
+    }
+    
+    bindEvents() {
+        // Navigation buttons
+        document.querySelector('.hero-nav.prev')?.addEventListener('click', () => {
+            this.prevSlide();
+        });
+        
+        document.querySelector('.hero-nav.next')?.addEventListener('click', () => {
+            this.nextSlide();
+        });
+        
+        // Indicators
+        document.querySelectorAll('.indicator').forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                this.goToSlide(index);
+            });
+        });
+        
+        // Pause auto-slide on hover
+        const heroSection = document.querySelector('.hero-banner');
+        if (heroSection) {
+            heroSection.addEventListener('mouseenter', () => {
+                this.stopAutoSlide();
+            });
+            
+            heroSection.addEventListener('mouseleave', () => {
+                this.startAutoSlide();
+            });
+        }
+    }
+    
+    nextSlide() {
+        this.currentSlide = (this.currentSlide + 1) % this.slides.length;
+        this.updateSlide();
+    }
+    
+    prevSlide() {
+        this.currentSlide = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
+        this.updateSlide();
+    }
+    
+    goToSlide(index) {
+        this.currentSlide = index;
+        this.updateSlide();
+    }
+    
+    updateSlide() {
+        // Update slide visibility
+        document.querySelectorAll('.hero-slide').forEach((slide, index) => {
+            slide.classList.toggle('active', index === this.currentSlide);
+        });
+        
+        // Update indicators
+        document.querySelectorAll('.indicator').forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === this.currentSlide);
+        });
+    }
+    
+    startAutoSlide() {
+        this.stopAutoSlide();
+        this.autoSlideInterval = setInterval(() => {
+            this.nextSlide();
+        }, 5000);
+    }
+    
+    stopAutoSlide() {
+        if (this.autoSlideInterval) {
+            clearInterval(this.autoSlideInterval);
+            this.autoSlideInterval = null;
+        }
+    }
+}
+
+// Mobile Menu
+class MobileMenu {
+    constructor() {
+        this.isOpen = false;
+        this.init();
+    }
+    
+    init() {
+        this.createMobileMenu();
+        this.bindEvents();
+    }
+    
+    createMobileMenu() {
+        const header = document.querySelector('.main-header .container');
+        if (!header) return;
+        
+        const mobileMenu = document.createElement('div');
+        mobileMenu.className = 'mobile-menu';
+        mobileMenu.innerHTML = `
+            <div class="mobile-menu-content">
+                <div class="mobile-menu-section">
+                    <h4>Institucional</h4>
+                    <ul>
+                        <li><a href="#" onclick="openWhatsApp('Gostaria de conhecer a empresa')">Quem Somos</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Quero saber sobre a história')">Nossa História</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Interessado em missão e valores')">Missão e Valores</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-section">
+                    <h4>Para Você</h4>
+                    <ul>
+                        <li><a href="#" onclick="openWhatsApp('Quero planos individuais')">Planos Individuais</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Interessado em planos familiares')">Planos Familiares</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Quero saber sobre benefícios')">Benefícios</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-section">
+                    <h4>Para Empresas</h4>
+                    <ul>
+                        <li><a href="#" onclick="openWhatsApp('Planos corporativos')">Planos Corporativos</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Gestão de saúde')">Gestão de Saúde</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Medicina do trabalho')">Medicina do Trabalho</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-actions">
+                    <button class="btn-primary mobile-btn" onclick="openWhatsApp('Quero fazer orçamento')">
+                        Falar no WhatsApp
+                    </button>
+                    <button class="btn-outline mobile-btn" onclick="openWhatsApp('Sou cliente')">
+                        Atendimento Cliente
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        header.appendChild(mobileMenu);
+        
+        // Add mobile menu styles
+        const style = document.createElement('style');
+        style.textContent = `
+            .mobile-menu {
+                display: none;
+                background: white;
+                border-top: 1px solid var(--border);
+                padding: 20px 0;
+                margin-top: 20px;
+            }
+            
+            .mobile-menu.active {
+                display: block;
+            }
+            
+            .mobile-menu-section {
+                margin-bottom: 25px;
+            }
+            
+            .mobile-menu-section h4 {
+                color: var(--primary);
+                margin-bottom: 15px;
+                font-size: 1.1rem;
+            }
+            
+            .mobile-menu-section ul {
+                list-style: none;
+                padding-left: 15px;
+            }
+            
+            .mobile-menu-section li {
+                margin-bottom: 10px;
+            }
+            
+            .mobile-menu-section a {
+                color: var(--muted);
+                text-decoration: none;
+                font-size: 0.9rem;
+                transition: color 0.3s ease;
+            }
+            
+            .mobile-menu-section a:hover {
+                color: var(--primary);
+            }
+            
+            .mobile-menu-actions {
+                padding-top: 20px;
+                border-top: 1px solid var(--border);
+            }
+            
+            .mobile-btn {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            
+            @media (min-width: 769px) {
+                .mobile-menu {
+                    display: none !important;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+    
+    bindEvents() {
+        const toggleButton = document.querySelector('.mobile-menu-toggle');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        if (toggleButton && mobileMenu) {
+            toggleButton.addEventListener('click', () => {
+                this.toggle();
+            });
+        }
+    }
+    
+    toggle() {
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const toggleButton = document.querySelector('.mobile-menu-toggle');
+        
+        if (mobileMenu && toggleButton) {
+            this.isOpen = !this.isOpen;
+            mobileMenu.classList.toggle('active', this.isOpen);
+            
+            // Update toggle icon
+            const icon = toggleButton.querySelector('i');
+            if (icon) {
+                icon.className = this.isOpen ? 'fas fa-times' : 'fas fa-bars';
+            }
+        }
+    }
+}
+
+// Scroll animations
+class ScrollAnimations {
+    constructor() {
+        this.init();
+    }
+    
+    init() {
+        this.observeElements();
+    }
+    
+    observeElements() {
+        const elements = document.querySelectorAll(`
+            .feature-card,
+            .service-card,
+            .benefit-card,
+            .testimonial-card,
+            .contact-method,
+            .info-card
+        `);
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+        
+        elements.forEach(element => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateY(30px)';
+            element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(element);
+        });
+    }
+}
+
+// Smooth scrolling for anchor links
+function smoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+}
+
+// Floating WhatsApp button animations
+function initWhatsAppFloat() {
+    const floatButton = document.querySelector('.whatsapp-float');
+    if (!floatButton) return;
+    
+    // Add entrance animation
+    setTimeout(() => {
+        floatButton.style.transform = 'scale(1)';
+        floatButton.style.opacity = '1';
+    }, 2000);
+    
+    // Initial state
+    floatButton.style.transform = 'scale(0)';
+    floatButton.style.opacity = '0';
+    floatButton.style.transition = 'all 0.3s ease';
+}
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize AOS (Animate On Scroll)
-    if (typeof AOS !== 'undefined') {
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-            offset: 100
-        });
-    }
-
-    // Initialize Swiper for partners carousel
-    initializeSwiper();
-
-    // Handle navbar scroll effect
-    handleNavbarScroll();
-
-    // Handle smooth scrolling for anchor links
-    handleSmoothScrolling();
-
-    // Handle accordion functionality
-    handleAccordions();
+    // Initialize components
+    new HeroBanner();
+    new MobileMenu();
+    new ScrollAnimations();
+    
+    // Initialize other features
+    smoothScroll();
+    initWhatsAppFloat();
+    
+    // Add some interactive effects
+    addHoverEffects();
 });
 
-// WhatsApp Functions
-function openWhatsApp() {
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
-    window.open(whatsappUrl, '_blank');
-}
-
-function openWhatsAppService(serviceName) {
-    const customMessage = `Olá, desejo um atendimento sobre ${serviceName}!`;
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(customMessage)}`;
-    window.open(whatsappUrl, '_blank');
-}
-
-// Initialize Swiper Carousel
-function initializeSwiper() {
-    if (typeof Swiper !== 'undefined') {
-        new Swiper('.partners-swiper', {
-            slidesPerView: 2,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                640: {
-                    slidesPerView: 3,
-                },
-                768: {
-                    slidesPerView: 4,
-                },
-                1024: {
-                    slidesPerView: 5,
-                },
-            },
+// Add hover effects to cards and buttons
+function addHoverEffects() {
+    // Card hover effects
+    document.querySelectorAll('.feature-card, .service-card, .benefit-card, .testimonial-card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px)';
         });
-    }
-}
-
-// Handle Navbar Scroll Effect
-function handleNavbarScroll() {
-    const navbar = document.getElementById('navbar');
-    
-    if (navbar) {
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-    }
-}
-
-// Handle Smooth Scrolling
-function handleSmoothScrolling() {
-    // Get all anchor links that start with #
-    const links = document.querySelectorAll('a[href^="#"]');
-    
-    links.forEach(link => {
-        link.addEventListener('click', function(e) {
-            const targetId = this.getAttribute('href');
-            
-            // Skip if it's just # or empty
-            if (targetId === '#' || targetId === '') {
-                return;
-            }
-            
-            const targetElement = document.querySelector(targetId);
-            
-            if (targetElement) {
-                e.preventDefault();
-                
-                // Calculate offset for fixed navbar
-                const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 0;
-                const targetPosition = targetElement.offsetTop - navbarHeight - 20;
-                
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-                
-                // Close mobile menu if open
-                const navbarCollapse = document.querySelector('.navbar-collapse');
-                if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-                    const bsCollapse = new bootstrap.Collapse(navbarCollapse);
-                    bsCollapse.hide();
-                }
-            }
-        });
-    });
-}
-
-// Handle Custom Accordion Functionality
-function handleAccordions() {
-    const accordionButtons = document.querySelectorAll('.accordion-button');
-    
-    accordionButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const targetId = this.getAttribute('data-bs-target');
-            const targetCollapse = document.querySelector(targetId);
-            
-            if (targetCollapse) {
-                const isExpanded = !targetCollapse.classList.contains('show');
-                
-                // Close all other accordions in the same group
-                const parentAccordion = this.closest('.accordion');
-                if (parentAccordion) {
-                    const allCollapses = parentAccordion.querySelectorAll('.accordion-collapse');
-                    const allButtons = parentAccordion.querySelectorAll('.accordion-button');
-                    
-                    allCollapses.forEach(collapse => {
-                        if (collapse !== targetCollapse && collapse.classList.contains('show')) {
-                            collapse.classList.remove('show');
-                        }
-                    });
-                    
-                    allButtons.forEach(btn => {
-                        if (btn !== this) {
-                            btn.classList.add('collapsed');
-                        }
-                    });
-                }
-                
-                // Toggle current accordion
-                if (isExpanded) {
-                    targetCollapse.classList.add('show');
-                    this.classList.remove('collapsed');
-                } else {
-                    targetCollapse.classList.remove('show');
-                    this.classList.add('collapsed');
-                }
-            }
-        });
-    });
-}
-
-// Add loading animation for images
-function addImageLoadingEffect() {
-    const images = document.querySelectorAll('img');
-    
-    images.forEach(img => {
-        img.addEventListener('load', function() {
-            this.style.opacity = '0';
-            this.style.transition = 'opacity 0.3s ease';
-            setTimeout(() => {
-                this.style.opacity = '1';
-            }, 50);
-        });
-    });
-}
-
-// Add intersection observer for animations
-function addScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-            }
-        });
-    }, observerOptions);
-
-    // Observe elements that should animate on scroll
-    const animatedElements = document.querySelectorAll('[data-aos]');
-    animatedElements.forEach(el => observer.observe(el));
-}
-
-// Handle form submissions
-function handleForms() {
-    const forms = document.querySelectorAll('form');
-    
-    forms.forEach(form => {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Show loading state
-            const submitButton = this.querySelector('button[type="submit"]');
-            if (submitButton) {
-                const originalText = submitButton.textContent;
-                submitButton.textContent = 'Enviando...';
-                submitButton.disabled = true;
-                
-                // Simulate form submission
-                setTimeout(() => {
-                    submitButton.textContent = originalText;
-                    submitButton.disabled = false;
-                    
-                    // Redirect to WhatsApp instead
-                    openWhatsApp();
-                }, 1000);
-            }
-        });
-    });
-}
-
-// Add click tracking for analytics
-function addClickTracking() {
-    document.addEventListener('click', function(e) {
-        const target = e.target.closest('button, a');
         
-        if (target) {
-            const action = target.textContent.trim() || target.getAttribute('aria-label') || 'click';
-            
-            // Log click for analytics (you can replace this with your analytics code)
-            console.log('Click tracked:', {
-                element: target.tagName.toLowerCase(),
-                text: action,
-                href: target.href || '',
-                timestamp: new Date().toISOString()
-            });
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+    
+    // Button hover effects
+    document.querySelectorAll('.btn-primary, .btn-outline, .btn-whatsapp').forEach(button => {
+        button.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-2px)';
+        });
+        
+        button.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+}
+
+// Handle WhatsApp button clicks with analytics (optional)
+function trackWhatsAppClick(message) {
+    // You can add analytics tracking here
+    console.log('WhatsApp click:', message);
+    
+    // Open WhatsApp
+    openWhatsApp(message);
+}
+
+// Add loading animation
+window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+});
+
+// Add scroll-to-top functionality (optional)
+function addScrollToTop() {
+    const scrollButton = document.createElement('button');
+    scrollButton.className = 'scroll-to-top';
+    scrollButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
+    scrollButton.style.cssText = `
+        position: fixed;
+        bottom: 100px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        background: var(--primary);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 999;
+    `;
+    
+    document.body.appendChild(scrollButton);
+    
+    scrollButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            scrollButton.style.opacity = '1';
+            scrollButton.style.visibility = 'visible';
+        } else {
+            scrollButton.style.opacity = '0';
+            scrollButton.style.visibility = 'hidden';
         }
     });
 }
 
-// Error handling for missing dependencies
-function handleMissingDependencies() {
-    // Check if required libraries are loaded
-    const requiredLibraries = ['bootstrap', 'AOS', 'Swiper'];
-    
-    requiredLibraries.forEach(lib => {
-        if (typeof window[lib] === 'undefined') {
-            console.warn(`${lib} library not loaded. Some functionality may not work properly.`);
-        }
-    });
-}
-
-// Initialize additional features
-function initializeAdditionalFeatures() {
-    addImageLoadingEffect();
-    addScrollAnimations();
-    handleForms();
-    addClickTracking();
-    handleMissingDependencies();
-}
-
-// Call additional initialization after a short delay
-setTimeout(initializeAdditionalFeatures, 100);
-
-// Export functions for global access
-window.openWhatsApp = openWhatsApp;
-window.openWhatsAppService = openWhatsAppService;
-
-// Handle page visibility change
-document.addEventListener('visibilitychange', function() {
-    if (document.visibilityState === 'visible') {
-        // Reinitialize animations when page becomes visible
-        if (typeof AOS !== 'undefined') {
-            AOS.refresh();
-        }
-    }
-});
-
-// Add resize handler for responsive features
-window.addEventListener('resize', function() {
-    // Refresh Swiper on resize
-    if (typeof Swiper !== 'undefined') {
-        const swiperInstance = document.querySelector('.partners-swiper')?.swiper;
-        if (swiperInstance) {
-            swiperInstance.update();
-        }
-    }
-    
-    // Refresh AOS on resize
-    if (typeof AOS !== 'undefined') {
-        AOS.refresh();
-    }
-});
+// Initialize scroll to top after DOM is loaded
+document.addEventListener('DOMContentLoaded', addScrollToTop);
