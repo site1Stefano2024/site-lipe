@@ -1127,4 +1127,8 @@ section {
         display: block;
         margin: 10px 0;
     }
+
+    .img-meedico {
+      width: 100%;
+    }
 }
