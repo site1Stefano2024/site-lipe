@@ -1182,6 +1182,15 @@ section {
     transition: border-color 0.3s ease;
 }
 
+.form-group select {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
 .form-group input:focus {
     border-color: #0052cc;
     outline: none;
