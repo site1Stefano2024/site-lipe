@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atendimento+ | Plano de Saúde de Confiança</title>
-    <meta name="description" content="MediCare+ - Mais de 25 anos cuidando da sua saúde. Planos de saúde com rede completa, atendimento humanizado e tecnologia avançada.">
+    <meta name="description"
+        content="MediCare+ - Mais de 25 anos cuidando da sua saúde. Planos de saúde com rede completa, atendimento humanizado e tecnologia avançada.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -26,9 +29,14 @@
                                     Institucional <i class="fas fa-chevron-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#" onclick="openWhatsApp('Gostaria de conhecer a empresa')">Quem Somos</a></li>
-                                    <li><a href="#" onclick="openWhatsApp('Quero saber sobre a história da empresa')">Nossa História</a></li>
-                                    <li><a href="#" onclick="openWhatsApp('Gostaria de conhecer missão e valores')">Missão e Valores</a></li>
+                                    <li><a href="#" onclick="openWhatsApp('Gostaria de conhecer a empresa')">Quem
+                                            Somos</a></li>
+                                    <li><a href="#"
+                                            onclick="openWhatsApp('Quero saber sobre a história da empresa')">Nossa
+                                            História</a></li>
+                                    <li><a href="#"
+                                            onclick="openWhatsApp('Gostaria de conhecer missão e valores')">Missão e
+                                            Valores</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -36,9 +44,13 @@
                                     Para Você <i class="fas fa-chevron-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#" onclick="openWhatsApp('Quero conhecer planos individuais')">Planos Individuais</a></li>
-                                    <li><a href="#" onclick="openWhatsApp('Interessado em planos familiares')">Planos Familiares</a></li>
-                                    <li><a href="#" onclick="openWhatsApp('Gostaria de saber sobre benefícios')">Benefícios</a></li>
+                                    <li><a href="#" onclick="openWhatsApp('Quero conhecer planos individuais')">Planos
+                                            Individuais</a></li>
+                                    <li><a href="#" onclick="openWhatsApp('Interessado em planos familiares')">Planos
+                                            Familiares</a></li>
+                                    <li><a href="#"
+                                            onclick="openWhatsApp('Gostaria de saber sobre benefícios')">Benefícios</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -46,9 +58,12 @@
                                     Para Empresas <i class="fas fa-chevron-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#" onclick="openWhatsApp('Interesse em planos corporativos')">Planos Corporativos</a></li>
-                                    <li><a href="#" onclick="openWhatsApp('Quero saber sobre gestão de saúde')">Gestão de Saúde</a></li>
-                                    <li><a href="#" onclick="openWhatsApp('Preciso de medicina do trabalho')">Medicina do Trabalho</a></li>
+                                    <li><a href="#" onclick="openWhatsApp('Interesse em planos corporativos')">Planos
+                                            Corporativos</a></li>
+                                    <li><a href="#" onclick="openWhatsApp('Quero saber sobre gestão de saúde')">Gestão
+                                            de Saúde</a></li>
+                                    <li><a href="#" onclick="openWhatsApp('Preciso de medicina do trabalho')">Medicina
+                                            do Trabalho</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -62,38 +77,69 @@
         </div>
     </header>
 
-    <!-- Hero Banner -->
-    <section class="hero-banner">
-        <div class="hero-slide active">
-            <div class="hero-background"></div>
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">
-                        Cuide bem de quem cuida do seu corpo:
-                        <span class="accent">sua mente.</span>
-                    </h1>
-                    <p class="hero-description">
-                        Programas de bem-estar e saúde mental para toda a família
-                    </p>
-                    <button class="btn-hero" onclick="openWhatsApp('Gostaria de conhecer os programas de bem-estar')">
-                        Falar no WhatsApp
-                    </button>
+    <!-- Formulário de Contato -->
+    <section class="contact-form">
+        <div class="container">
+            <h2>Segunda Via de Boleto Uni</h2>
+            <p>Acesse a segunda via de boleto da sua Unimed</p>
+            <br>
+            <form id="whatsappForm" onsubmit="sendToWhatsApp(event)">
+
+                <!-- Linha 1: Carteirinha e Nascimento -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="carteirinha">Número da Carteirinha:</label>
+                        <input type="text" id="carteirinha" name="carteirinha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </div>
                 </div>
-            </div>
-        </div>
-        
-        <div class="hero-controls">
-            <button class="hero-nav prev"><i class="fas fa-chevron-left"></i></button>
-            <button class="hero-nav next"><i class="fas fa-chevron-right"></i></button>
-            <div class="hero-indicators">
-                <span class="indicator active"></span>
-                <span class="indicator"></span>
-                <span class="indicator"></span>
-            </div>
+
+                <!-- Linha 2: Estado e Cidade -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" name="estado" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-hero">Acessar</button>
+            </form>
         </div>
     </section>
 
-        <!-- Services Section -->
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+
+            const carteirinha = document.getElementById('carteirinha').value;
+            const nascimento = document.getElementById('nascimento').value;
+            const estado = document.getElementById('estado').value;
+            const cidade = document.getElementById('cidade').value;
+
+            const message = `Olá, gostaria de entrar em contato com as seguintes informações:%0A
+🆔 Número da Carteirinha: ${carteirinha}%0A
+📅 Data de Nascimento: ${nascimento}%0A
+📍 Estado: ${estado}%0A
+🏙️ Cidade: ${cidade}`;
+
+            const phoneNumber = '551151924444'; // 55 + DDD + número
+
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+
+            window.open(url, '_blank');
+        }
+    </script>
+
+    <!-- Services Section -->
     <section class="services-section">
         <div class="container">
             <div class="section-header">
@@ -179,7 +225,8 @@
         <div class="container">
             <div class="section-header">
                 <h2>Próximos de você para cuidar de sua saúde</h2>
-                <p>Nós, da Portal do Cliente Uni, estamos sempre próximos de você, diretamente ou por meio das nossas unidades parceiras, para cuidar da sua saúde e a de seus dependentes.</p>
+                <p>Nós, da Portal do Cliente Uni, estamos sempre próximos de você, diretamente ou por meio das nossas
+                    unidades parceiras, para cuidar da sua saúde e a de seus dependentes.</p>
             </div>
 
             <div class="features-grid">
@@ -216,7 +263,8 @@
             <div class="about-highlight">
                 <div class="about-text">
                     <h3>Experiência de quem tem responsabilidade</h3>
-                    <p>Cuidar de pessoas é a nossa especialidade. Para isso, trabalhamos com as pessoas no centro da nossa operação.</p>
+                    <p>Cuidar de pessoas é a nossa especialidade. Para isso, trabalhamos com as pessoas no centro da
+                        nossa operação.</p>
                     <div class="stats-grid">
                         <div class="stat">
                             <div class="stat-number">25+</div>
@@ -308,7 +356,8 @@
                 <h3>Pronto para cuidar da sua saúde?</h3>
                 <p>Fale conosco agora e descubra o plano ideal para você</p>
                 <div class="cta-buttons">
-                    <button class="btn-primary" onclick="openWhatsApp('Gostaria de conhecer todos os benefícios do plano')">
+                    <button class="btn-primary"
+                        onclick="openWhatsApp('Gostaria de conhecer todos os benefícios do plano')">
                         Falar no WhatsApp
                     </button>
                     <button class="btn-outline" onclick="openWhatsApp('Quero fazer uma simulação de plano')">
@@ -384,7 +433,8 @@
             <div class="testimonials-cta">
                 <h3>Junte-se a milhares de clientes satisfeitos</h3>
                 <p>Faça como eles e tenha a tranquilidade de um plano de saúde de qualidade</p>
-                <button class="btn-primary" onclick="openWhatsApp('Vi os depoimentos e gostaria de conhecer os planos')">
+                <button class="btn-primary"
+                    onclick="openWhatsApp('Vi os depoimentos e gostaria de conhecer os planos')">
                     Quero ser cliente também
                 </button>
             </div>
@@ -410,7 +460,8 @@
                     <div class="footer-logo">
                         Portal do Cliente Uni<span class="accent">+</span>
                     </div>
-                    <p>Mais de 25 anos cuidando da sua saúde com excelência, humanização e inovação. Sua saúde é nossa prioridade.</p>
+                    <p>Mais de 25 anos cuidando da sua saúde com excelência, humanização e inovação. Sua saúde é nossa
+                        prioridade.</p>
                     <div class="footer-contact">
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
@@ -428,11 +479,13 @@
                     <ul>
                         <li><a href="#" onclick="openWhatsApp('Quero conhecer a empresa')">Quem Somos</a></li>
                         <li><a href="#" onclick="openWhatsApp('Interessado nos planos')">Nossos Planos</a></li>
-                        <li><a href="#" onclick="openWhatsApp('Quero encontrar uma unidade')">Rede de Atendimento</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Quero encontrar uma unidade')">Rede de Atendimento</a>
+                        </li>
                         <li><a href="#" onclick="openWhatsApp('Sou beneficiário')">Central do Beneficiário</a></li>
                         <li><a href="#" onclick="openWhatsApp('Preciso da segunda via')">Segunda Via de Boleto</a></li>
                         <li><a href="#" onclick="openWhatsApp('Quero autorização online')">Autorização Online</a></li>
-                        <li><a href="#" onclick="openWhatsApp('Preciso da carteirinha digital')">Carteirinha Digital</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Preciso da carteirinha digital')">Carteirinha Digital</a>
+                        </li>
                         <li><a href="#" onclick="openWhatsApp('Quero usar telemedicina')">Telemedicina</a></li>
                     </ul>
                 </div>
@@ -445,9 +498,12 @@
                         <li><a href="#" onclick="openWhatsApp('Interesse em cirurgias')">Cirurgias Eletivas</a></li>
                         <li><a href="#" onclick="openWhatsApp('Preciso de emergência')">Emergência 24h</a></li>
                         <li><a href="#" onclick="openWhatsApp('Quero fazer check-up')">Check-up Completo</a></li>
-                        <li><a href="#" onclick="openWhatsApp('Interesse em medicina preventiva')">Medicina Preventiva</a></li>
-                        <li><a href="#" onclick="openWhatsApp('Quero programas de bem-estar')">Programas de Bem-estar</a></li>
-                        <li><a href="#" onclick="openWhatsApp('Preciso de suporte nutricional')">Suporte Nutricional</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Interesse em medicina preventiva')">Medicina
+                                Preventiva</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Quero programas de bem-estar')">Programas de
+                                Bem-estar</a></li>
+                        <li><a href="#" onclick="openWhatsApp('Preciso de suporte nutricional')">Suporte Nutricional</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -455,7 +511,8 @@
 
             <div class="footer-bottom">
                 <div class="legal-links">
-                    <a href="#" onclick="openWhatsApp('Quero saber sobre política de privacidade')">Política de Privacidade</a>
+                    <a href="#" onclick="openWhatsApp('Quero saber sobre política de privacidade')">Política de
+                        Privacidade</a>
                     <a href="#" onclick="openWhatsApp('Gostaria de ver os termos de uso')">Termos de Uso</a>
                     <a href="#" onclick="openWhatsApp('Quero conhecer o código de ética')">Código de Ética</a>
                     <a href="#" onclick="openWhatsApp('Quero falar com a ouvidoria')">Ouvidoria</a>
@@ -476,4 +533,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
