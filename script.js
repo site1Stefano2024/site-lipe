@@ -1,5 +1,5 @@
 // WhatsApp Integration
-const WHATSAPP_NUMBER = '1151924444';
+const WHATSAPP_NUMBER = '551151924444';
 
 function openWhatsApp(message) {
     const encodedMessage = encodeURIComponent(message);

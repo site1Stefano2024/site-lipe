@@ -1228,3 +1228,8 @@ section {
     flex: 1;
     min-width: 48%;
 }
+
+
+.contact-section {
+    margin-bottom: 20px;
+}
