@@ -148,58 +148,7 @@
         </div>
     </section>
 
-    <script>
-        const cidadesPorEstado = {
-            AC: ["Rio Branco", "Cruzeiro do Sul"],
-            AL: ["Maceió", "Arapiraca"],
-            AP: ["Macapá", "Santana"],
-            AM: ["Manaus", "Parintins"],
-            BA: ["Salvador", "Feira de Santana", "Vitória da Conquista"],
-            CE: ["Fortaleza", "Juazeiro do Norte"],
-            DF: ["Brasília"],
-            ES: ["Vitória", "Vila Velha"],
-            GO: ["Goiânia", "Anápolis"],
-            MA: ["São Luís", "Imperatriz"],
-            MT: ["Cuiabá", "Várzea Grande"],
-            MS: ["Campo Grande", "Dourados"],
-            MG: ["Belo Horizonte", "Uberlândia", "Contagem"],
-            PA: ["Belém", "Santarém"],
-            PB: ["João Pessoa", "Campina Grande"],
-            PR: ["Curitiba", "Londrina", "Maringá"],
-            PE: ["Recife", "Olinda"],
-            PI: ["Teresina", "Parnaíba"],
-            RJ: ["Rio de Janeiro", "Niterói", "Nova Iguaçu"],
-            RN: ["Natal", "Mossoró"],
-            RS: ["Porto Alegre", "Caxias do Sul"],
-            RO: ["Porto Velho", "Ji-Paraná"],
-            RR: ["Boa Vista"],
-            SC: ["Florianópolis", "Joinville", "Blumenau"],
-            SP: ["São Paulo", "Campinas", "Santos", "Ribeirão Preto"],
-            SE: ["Aracaju", "Nossa Senhora do Socorro"],
-            TO: ["Palmas", "Araguaína"]
-        };
-
-        function atualizarCidades() {
-            const estado = document.getElementById("estado").value;
-            const cidadeSelect = document.getElementById("cidade");
-            cidadeSelect.innerHTML = "";
-
-            if (estado && cidadesPorEstado[estado]) {
-                cidadesPorEstado[estado].forEach(cidade => {
-                    const option = document.createElement("option");
-                    option.value = cidade;
-                    option.textContent = cidade;
-                    cidadeSelect.appendChild(option);
-                });
-            } else {
-                const option = document.createElement("option");
-                option.textContent = "Selecione o Estado primeiro";
-                cidadeSelect.appendChild(option);
-            }
-        }
-    </script>
-
-    <!-- Services Section -->
+    <!-- Services Section
     <section class="services-section">
         <div class="container">
             <div class="section-header">
@@ -279,8 +228,9 @@
             </div>
         </div>
     </section>
+    -->
 
-    <!-- About Section -->
+    <!-- About Section
     <section class="about-section">
         <div class="container">
             <div class="section-header">
@@ -358,8 +308,9 @@
             </div>
         </div>
     </section>
+    -->
 
-    <!-- Benefits Section -->
+    <!-- Benefits Section
     <section class="benefits-section">
         <div class="container">
             <div class="section-header">
@@ -413,8 +364,9 @@
             </div>
         </div>
     </section>
+    -->
 
-    <!-- Testimonials Section -->
+    <!-- Testimonials Section
     <section class="testimonials-section">
         <div class="container">
             <div class="section-header">
@@ -486,6 +438,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
@@ -493,12 +446,14 @@
             <div class="section-header">
                 <h2>Entre em Contato</h2>
                 <p>Estamos sempre disponíveis para esclarecer suas dúvidas e ajudar com o que precisar</p>
+                <br>
+                <a href="#" class="btn-hero">Falar com central de atendimento!</a>
             </div>
 
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer 
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -564,13 +519,12 @@
                     <a href="#" onclick="openWhatsApp('Quero falar com a ouvidoria')">Ouvidoria</a>
                 </div>
             </div>
-
-            <!--             <div class="footer-copyright">
+          <div class="footer-copyright">
                 <p>&copy; 2024 MediCare+. Todos os direitos reservados. | CNPJ: 00.000.000/0001-00 | ANS: 123456</p>
             </div>
-            -->
         </div>
     </footer>
+    -->
 
     <!-- WhatsApp Float Button -->
     <div class="whatsapp-float" onclick="openWhatsApp('Olá, gostaria de um atendimento!')">
@@ -578,6 +532,76 @@
     </div>
 
     <script src="script.js"></script>
+
+<script>
+    const cidadesPorEstado = {
+        AC: ["Rio Branco", "Cruzeiro do Sul"],
+        AL: ["Maceió", "Arapiraca"],
+        AP: ["Macapá", "Santana"],
+        AM: ["Manaus", "Parintins"],
+        BA: ["Salvador", "Feira de Santana", "Vitória da Conquista"],
+        CE: ["Fortaleza", "Juazeiro do Norte"],
+        DF: ["Brasília"],
+        ES: ["Vitória", "Vila Velha"],
+        GO: ["Goiânia", "Anápolis"],
+        MA: ["São Luís", "Imperatriz"],
+        MT: ["Cuiabá", "Várzea Grande"],
+        MS: ["Campo Grande", "Dourados"],
+        MG: ["Belo Horizonte", "Uberlândia", "Contagem"],
+        PA: ["Belém", "Santarém"],
+        PB: ["João Pessoa", "Campina Grande"],
+        PR: ["Curitiba", "Londrina", "Maringá"],
+        PE: ["Recife", "Olinda"],
+        PI: ["Teresina", "Parnaíba"],
+        RJ: ["Rio de Janeiro", "Niterói", "Nova Iguaçu"],
+        RN: ["Natal", "Mossoró"],
+        RS: ["Porto Alegre", "Caxias do Sul"],
+        RO: ["Porto Velho", "Ji-Paraná"],
+        RR: ["Boa Vista"],
+        SC: ["Florianópolis", "Joinville", "Blumenau"],
+        SP: ["São Paulo", "Campinas", "Santos", "Ribeirão Preto"],
+        SE: ["Aracaju", "Nossa Senhora do Socorro"],
+        TO: ["Palmas", "Araguaína"]
+    };
+
+    function atualizarCidades() {
+        const estado = document.getElementById("estado").value;
+        const cidadeSelect = document.getElementById("cidade");
+
+        // Limpa as opções existentes
+        cidadeSelect.innerHTML = "";
+
+        if (estado && cidadesPorEstado[estado]) {
+            cidadesPorEstado[estado].forEach(cidade => {
+                const option = document.createElement("option");
+                option.value = cidade;
+                option.textContent = cidade;
+                cidadeSelect.appendChild(option);
+            });
+        } else {
+            const option = document.createElement("option");
+            option.textContent = "Selecione o Estado primeiro";
+            cidadeSelect.appendChild(option);
+        }
+    }
+
+    function sendToWhatsApp(event) {
+        event.preventDefault();
+
+        const carteirinha = document.getElementById("carteirinha").value;
+        const nascimento = document.getElementById("nascimento").value;
+        const estado = document.getElementById("estado").value;
+        const cidade = document.getElementById("cidade").value;
+
+        const mensagem = `Olá, gostaria de solicitar a segunda via do meu boleto.\n\nNúmero da Carteirinha: ${carteirinha}\nData de Nascimento: ${nascimento}\nEstado: ${estado}\nCidade: ${cidade}`;
+        const numeroWhatsApp = "5592984215343";
+        const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+
+        window.open(url, "_blank");
+    }
+</script>
+
+
 </body>
 
 </html>
